@@ -5,3 +5,46 @@
 @media(max-width:1100px){.shell{width:calc(100% - 64px)}.header{height:95px}.brand-sub{font-size:7px}.home-hero{min-height:570px}.record-scene{height:420px}.record-scene>.vinyl{width:290px;height:290px;top:70px;right:-6px}.sleeve{height:280px;top:80px}.record-sticker{bottom:25px;width:90px;height:90px;font-size:12px}.hero-footnote{font-size:7px;gap:8px}.hero-footnote .small-line{display:none}.section-heading h2{font-size:26px}.practice-grid{gap:36px}.session-row{grid-template-columns:80px 70px 1fr;gap:6px}.music-cover{padding:35px 30px}.music-record>.vinyl{width:320px;height:320px;right:-55px}.music-cover h1{font-size:40px}.artist{padding:18px}.artist h3{font-size:17px}.notebook{gap:45px}.world-description{padding:30px}.world-feature{grid-template-columns:33% 1fr 50px}}
 @media(max-width:760px){.shell{width:calc(100% - 40px)}.header{height:86px;gap:10px}.brand{font-size:16px;gap:8px}.brand-mark{font-size:39px}.brand-sub{display:none}nav{gap:18px;font-size:11px}nav .github{display:none}.home-hero{grid-template-columns:1fr;gap:15px;padding-block:40px 32px}.hero-copy .eyebrow{font-size:8px;letter-spacing:1px}.home-hero h1{font-size:46px;letter-spacing:-2px}.hero-description{font-size:12px;margin-bottom:23px}.hero-footnote{margin-top:30px;font-size:7px}.record-scene{width:min(100%,430px);height:390px;margin:auto}.record-scene>.vinyl{width:285px;height:285px;right:5px;top:55px}.sleeve{width:63%;top:57px;height:275px}.sleeve>span{font-size:30px}.scene-caption{font-size:7px}.scene-bottom{font-size:7px}.record-sticker{right:5px;bottom:18px}.ticker{padding-block:13px}.ticker>div{font-size:9px}.worlds{padding-block:50px}.section-heading{gap:12px;align-items:flex-start;margin-bottom:24px}.section-heading h2{font-size:23px;letter-spacing:-.8px}.section-number{font-size:7px;padding-top:6px}.eyebrow{font-size:8px;letter-spacing:1px}.world-feature{grid-template-columns:1fr;position:relative}.world-art{height:170px}.audio-lines{height:120px;width:65%;gap:12px}.world-description{padding:25px}.world-description h3{font-size:26px}.world-description p{font-size:11px}.large-arrow{position:absolute;bottom:23px;right:25px;font-size:28px}.future-row{gap:15px;padding-block:24px}.future-row>span:first-child{font-size:7px}.future-row p{font-size:10px}.about{grid-template-columns:1fr;gap:20px;padding-block:40px 50px}.about h2{font-size:31px}.about-copy p{font-size:12px}.footer{flex-wrap:wrap;padding-block:20px;gap:14px}.footer>span{font-size:6px;letter-spacing:.3px}.footer>a:last-child{font-size:9px}.breadcrumb{font-size:9px;padding-block:21px}.music-hero{grid-template-columns:1fr}.music-cover{padding:32px 25px}.music-cover h1{font-size:39px}.music-cover>p:not(.eyebrow){font-size:12px}.music-record{min-height:280px}.music-record>.vinyl{width:260px;height:260px;right:15px;top:-35px}.music-record .vinyl-label{width:120px;height:120px}.music-record .vinyl-label strong{font-size:22px}.music-record .vinyl-label small{font-size:4px}.record-caption{left:24px;bottom:20px}.record-caption>span{font-size:33px}.record-caption p{font-size:12px}.side-label{font-size:6px;left:20px;top:20px;max-width:80px}.music-nav{gap:6px;padding-block:13px}.music-nav a{font-size:9px}.section-space{padding-block:46px}.section-intro{font-size:11px;margin-top:-5px}.roadmap{grid-template-columns:1fr}.milestone{border-right:0;border-bottom:1px solid var(--line);padding:25px}.milestone:last-child{border-bottom:0}.phase{margin-bottom:18px}.milestone p br{display:none}.milestone ul{margin-block:15px}.journey-note{gap:10px;align-items:flex-start}.journey-note p{font-size:10px;line-height:1.8}.journey-note>span:last-child{display:none}.practice-grid{grid-template-columns:1fr;gap:30px}.session-row{grid-template-columns:85px 72px 1fr}.practice-tool{padding:24px}.artists{grid-template-columns:1fr;gap:18px}.artist{padding:22px}.artist-visual{height:180px}.artist-index{font-size:8px}.artist h3{font-size:22px}.artist p{font-size:11px}.demo-slot{padding:20px;gap:15px;align-items:flex-start}.demo-icon{font-size:40px}.demo-slot .eyebrow{font-size:6px;line-height:1.8}.demo-slot h3{font-size:15px;line-height:1.7}.demo-label{display:none}.notebook{grid-template-columns:1fr;gap:25px;padding-block:42px 50px}.notebook h2{font-size:31px}.local-note{margin-top:16px}.note-actions>span{font-size:8px}.music-page .footer>span{font-size:6px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Minimal personal index — typography and artwork first. */
+.minimal-home .home-hero{min-height:680px;padding-block:60px 80px}
+.minimal-home h1{font-size:clamp(58px,6.7vw,94px);letter-spacing:-5px;line-height:1.06;margin-bottom:28px;font-weight:650}
+.minimal-home h1 .serif-orange{font-style:italic;letter-spacing:-4px;font-size:.86em}
+.minimal-home .hero-description{font-size:13px;line-height:1.7;margin-bottom:31px}
+.minimal-home .hero-footnote{margin-top:65px;font-size:8px}
+.minimal-home .sleeve>span{font-size:clamp(39px,4.8vw,67px);letter-spacing:-3px;line-height:.92}
+.minimal-home .sleeve{padding-top:30px}
+.minimal-home .record-sticker{font:11px/1.5 var(--mono);letter-spacing:1px}
+.minimal-home .vinyl-label strong{font-size:30px}
+.index-section{padding-block:0 60px}
+.index-header{display:flex;justify-content:space-between;padding-bottom:18px;border-bottom:1px solid var(--ink);font:9px var(--mono);letter-spacing:1.7px}
+.index-entry{display:flex;align-items:center;gap:35px;padding-block:32px;border-bottom:1px solid var(--line);transition:padding .2s}
+.index-entry[href]:hover{padding-left:10px}
+.index-no{font:10px var(--mono);color:var(--muted);align-self:flex-start;margin-top:12px}
+.index-entry h2{font:48px/1.15 Georgia,serif;letter-spacing:-1.5px}
+.index-entry h2>span{display:block;font:11px var(--sans);letter-spacing:0;color:var(--muted);margin-top:12px}
+.index-arrow{font-size:32px;margin-left:20px}
+.mini-record{width:68px;height:68px;border-radius:50%;background:radial-gradient(circle,var(--paper) 0 2px,var(--orange) 3px 12px,transparent 13px),repeating-radial-gradient(circle,#272e31 0 2px,#44494a 3px,#272e31 4px);margin-left:auto}
+.index-soon{padding-block:24px;color:#96998e}
+.index-soon h2{font-size:28px;font-style:italic;letter-spacing:-.6px}
+.index-placeholder{margin-left:auto;font:14px var(--mono)}
+.minimal-music .music-cover h1{font-size:88px;line-height:1;letter-spacing:-4px;margin-block:35px 22px;font-weight:650}
+.minimal-music .music-cover h1 span{font-style:italic;font-weight:400}
+.minimal-music .cover-foot{margin-top:32px}
+.minimal-music .music-hero{min-height:470px}
+.minimal-music .music-record{min-height:470px}
+.minimal-music .music-cover{padding-block:35px}
+.minimal-music .section-heading h2,.minimal-music .notebook h2{font:42px/1.2 Georgia,serif;letter-spacing:-1.5px}
+.minimal-music .artist h3{margin-bottom:20px}
+.minimal-music .artist-visual{height:195px}
+.recordings-section{padding-bottom:65px}
+.empty-recording{display:flex;align-items:center;gap:25px;padding:25px 0;border-block:1px solid var(--line);color:var(--muted);font-size:12px}
+.empty-disc{font:58px Georgia,serif;color:#999e8f}
+.archive-format{font:8px var(--mono);letter-spacing:1.2px;margin-left:auto}
+.studio-label{display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+.studio-symbol{font-size:140px;color:var(--orange);line-height:1}
+.studio-label p{font:26px Georgia,serif;letter-spacing:-.5px;margin:28px 0 17px}
+.studio-label>span:last-child{font:8px var(--mono);letter-spacing:2px;color:var(--muted)}
+.minimal-music .music-nav{font:9px var(--mono);letter-spacing:.5px}
+@media(max-width:1100px){.minimal-home h1{font-size:70px}.minimal-home .hero-copy{position:relative;z-index:4}.minimal-home .home-hero{min-height:600px}.minimal-music .music-cover h1{font-size:76px}}
+@media(max-width:760px){.minimal-home .home-hero{padding-block:40px;min-height:0}.minimal-home h1{font-size:68px;letter-spacing:-3px}.minimal-home h1 .serif-orange{letter-spacing:-2px}.minimal-home .hero-description{font-size:11px}.minimal-home .hero-footnote{margin-top:30px}.minimal-home .record-scene{margin-top:22px}.minimal-home .sleeve>span{font-size:51px}.index-section{padding-bottom:38px}.index-entry{gap:20px;padding-block:25px}.index-entry h2{font-size:37px}.index-entry h2>span{font-size:10px}.index-soon h2{font-size:26px}.mini-record{width:48px;height:48px}.index-arrow{font-size:25px;margin-left:0}.minimal-music .music-cover h1{font-size:78px;margin-top:27px}.minimal-music .music-record{min-height:280px}.minimal-music .music-nav{font-size:7px;letter-spacing:0}.minimal-music .music-nav a{font-size:8px}.minimal-music .section-heading h2,.minimal-music .notebook h2{font-size:35px}.studio-label{display:none}.minimal-music .practice-grid{grid-template-columns:1fr}.empty-recording{gap:17px}.archive-format{font-size:6px;max-width:85px;text-align:right;line-height:1.9}.recordings-section{padding-bottom:42px}.minimal-music .artist-visual{height:180px}}
