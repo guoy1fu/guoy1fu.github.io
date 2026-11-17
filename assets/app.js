@@ -91,3 +91,17 @@ if (noteForm) {
     status.textContent = 'Exported.';
   });
 }
+
+// Keep direct links to the practice tools usable when the panel is collapsed.
+const practicePanel = document.querySelector('details#practice');
+if (practicePanel) {
+  const showPracticeFromHash = () => {
+    const hash = window.location.hash;
+    if (hash === '#practice' || hash === '#notebook') {
+      practicePanel.open = true;
+      if (hash === '#notebook') document.getElementById('notebook').scrollIntoView();
+    }
+  };
+  showPracticeFromHash();
+  window.addEventListener('hashchange', showPracticeFromHash);
+}
